@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #AED6F1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(https://img.freepik.com/premium-vector/man-woman-buy-clothes-store-sale-discount-dress-t-shirt-jeans-are-hanging_507816-218.jpg?w=360)
+  }
+
+  
+  header {
+    position: fixed;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    background-color:#AED6F1;
+    font-size: 15px
+  }
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  .logo {
+    width: 500px;
+  }
+  @media (max-width: 650px) {
+    .logo {
+      margin-top: 100px;
+      width: 100%;
+      position: fixed;
+    }
+  }
+  .logo > img {
+    height: 100px;
+    max-width: 400px;
+    display: flex;
+    justify-content: right;
+    margin-left:-70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+nav {
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  nav {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin-left:550px;
+}
+#navbar {
+    font-weight: 200;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-transform: uppercase;
+    border-color: #000305; 
+    background-color: pink;
+  }
+  
+  #navbar a {
+    display: block;
+    font-size: 16px;
+    padding: 1rem 0.5rem;
+    margin-left: 80px;
+  }
+.nav-link{
+    margin-top: -60px;
+    margin-bottom: 2px;
+    color: black;
+}
+.flex-row {
+    display: flex;
+}
+
+#centre{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #000000;
+    margin-top: 170px;
+    margin-left: 525px;
+    font-size: 70px;
+}
+#mis {
+    font-weight: 500px;
+  width: 85%;
+  margin-top: 25px;
+  margin-left: 80px;
+  color: black;
+  text-align: center;
+  }
+
+  #mis > h2 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 1rem 1rem;
+ 
+  }
+#mis > p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 1rem 1rem;
+  }
+#sion {
+    font-weight: 500px;
+  width: 85%;
+  margin-top: 25px;
+  margin-left: 80px;
+  color: black;
+  text-align: center;
+  }
+
+  #sion > h3 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 1rem 1rem;
+ 
+  }
+#sion > p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 1rem 1rem;
+  }
+  .choose {
+    font-weight: 200px;
+    width: 85%;
+    margin-top: 25px;
+    margin-left: -50px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 1rem 1rem;
+  }
+  .contact {
+  font-weight: 200px;
+  width: 85%;
+  margin-top: 25px;
+  margin-left: -100px;
+  color: black;
+  text-align: center;
+  }
+  .contact h3{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 1rem 1rem;
+    margin-left: -20px;
+
+  }
+  
+#tel{
+    margin-left: -850px;
+    margin-top: 10px;
+}
+#home{
+    margin-left: -580px;
+    margin-top: 10px;
+}
+#wep{
+    margin-left: -755px;
+    margin-top: 10px;
+}
+.contact a{
+  color: blueviolet;
+}
+.contact i{
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+
+}
+#headerimg {
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10;
+  }
+footer {
+    padding: 2rem 0;
+
+    color: var(--text-light-normal);
+    background-color: plum;
+}
+
+footer .container {
+    flex-direction: column;
+}
+
+footer strong {
+    color: var(--text-light-strong);
+}
+
+footer .brand {
+    line-height: 1.2;
+
+    margin-bottom: 1rem;
+} 
+
+footer .brand > p {
+    letter-spacing: 0.5em;
+}
+#features {
+    padding: 23px;
+    .list {
+      display: flex;
+      margin: auto;
+      width: 50%;
+      }
+    .icon {
+      display: flex;
+      align-items: left;
+      justify-content: left;
+      margin: 41px 17px 0px 0px;
+      padding: 13px;
+      color: rgb(243,112,32);
+      .material-icons {
+        transform: scale(2,2);
+        }
+      @media (max-width: 568px) {
+        display: none;
+      }
+      }
+    .discription {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: auto;
+      @media (max-width: 568px) {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+        padding: 20px;
+        height: 250px;
+      }
+      }
+    @media (max-width: 568px) {
+      margin-top: 0px;
+    }

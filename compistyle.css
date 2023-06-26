@@ -1,0 +1,87 @@
+img {
+      width: 250px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 6rem;
+    }
+#headerimg {
+        width: 120px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10;
+      }
+#projects {
+  text-align: center;
+  width: 100%;
+  padding: 7rem .1rem;
+  background-color: rgb(235, 185, 121)185, 121);
+}
+
+#projects .projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 3rem;
+  grid-column-gap: 2rem;
+  margin-top: 2rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#projects .container>h1 {
+  font-size: 2.6rem;
+  color: #fff;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-bottom: .6rem;
+  line-height: 1.2;
+}
+
+#bottom-line {
+  height: 8px;
+  background-color: violet;
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+#projects .projects .box {
+  background-color: #eee;
+  border: 5px solid #eee;
+  border-radius: 3px;
+}
+
+#projects .projects .box a {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#projects .projects .box a p {
+  padding: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+
+
+.code {
+  color: black;
+  transition: .5s all ease;
+  font-size: 1rem;
+}
+
+#projects .projects .box:hover .code {
+  color: var(--primary-color);
+}
+li{
+      list-style-type:none;
+    }
+#videos>h2{
+        margin-left: 150px;
+    }
+   
